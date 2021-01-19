@@ -1,2 +1,0 @@
-GameName: Apex
-ProcessName: EasyAntiCheat_launcher.exe
