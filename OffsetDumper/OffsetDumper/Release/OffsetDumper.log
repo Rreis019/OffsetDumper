@@ -1,0 +1,9 @@
+﻿  mem.cpp
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\mem.cpp(153,1): error C2556: 'uintptr_t mem::FindPattern(HANDLE,wchar_t *,PatternStruct)': overloaded function differs only by return type from 'uint64_t mem::FindPattern(HANDLE,wchar_t *,PatternStruct)'
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\mem.h(70): message : see declaration of 'mem::FindPattern'
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\mem.cpp(152,16): error C2371: 'mem::FindPattern': redefinition; different basic types
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\mem.h(70): message : see declaration of 'mem::FindPattern'
+  OffsetDumper.cpp
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\OffsetDumper.cpp(120,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\OffsetDumper.cpp(138,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rr199\source\repos\OffsetDumper\OffsetDumper\OffsetDumper.cpp(158,22): warning C4244: 'initializing': conversion from 'uint64_t' to 'DWORD', possible loss of data
