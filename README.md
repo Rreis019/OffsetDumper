@@ -18,6 +18,8 @@ enum game_data : int32
 	pEntitySystem = 0xFindPattern(Deceit.exe,48 8B 3D ?? ?? ?? ?? 48 8B 53,address,3,0) , // svoti_debug_probe
 	pGameFramework = 0xFindPattern(Deceit.exe,48 8B 0D ?? ?? ?? ?? 4C 89 78 C0 F3,address,3,0) , 
 };
+
+
 ////////////////////////////////////////////////////////////////////////////
 SaveFileName: Dumps\ApexOffset.h
 ProcessName: EasyAntiCheat_launcher.exe
@@ -39,7 +41,5 @@ ProcessName: EasyAntiCheat_launcher.exe
 #define OFFSET_Bones            0xFindPattern(EasyAntiCheat_launcher.exe,48 8B 97 ?? ?? ?? ?? 48 8D 04 5B 48 C1,offset,3,2)
 #define OFFSET_CamPos           0xFindPattern(EasyAntiCheat_launcher.exe,0F 2E 89 ?? ?? ?? ?? 7A 58,offset,3,2)
 ////////////////////////////////////////////////////////////////////////////
-
-
 
 
